@@ -1,4 +1,6 @@
 # 🛒 Retail Customer Segmentation Flask App
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/) [![Flask](https://img.shields.io/badge/Flask-1.1.2-orange?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)  [![Docker](https://img.shields.io/badge/Docker-20-blue?logo=docker&logoColor=white)](https://www.docker.com/)  [![Gunicorn](https://img.shields.io/badge/Gunicorn-server-green)](https://gunicorn.org/)  
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24-blue?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 
 [🌐 Live Demo on Render](https://customer-segmentation-app-4ifa.onrender.com)
 
