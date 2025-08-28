@@ -1,25 +1,26 @@
 # 🛒 Retail Customer Segmentation Flask App
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/) [![Flask](https://img.shields.io/badge/Flask-1.1.2-orange?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)  [![Docker](https://img.shields.io/badge/Docker-20-blue?logo=docker&logoColor=white)](https://www.docker.com/)  [![Gunicorn](https://img.shields.io/badge/Gunicorn-server-green)](https://gunicorn.org/)  
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24-blue?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24-blue?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 [🌐 Live Demo on Render](https://customer-segmentation-app-4ifa.onrender.com)
 
 ## 📋 Project Overview
 
-This project is a **Flask-based web application** that implements a customer segmentation model to classify retail customers based on their behavior. The app utilizes key customer metrics to segment customers, enabling businesses to tailor marketing strategies and improve customer engagement. You can use **synthetic_customer_segments** file in repository as input because input file compulsarily requires **Customer ID, Recency, Frequency, Monetary** features. 
+This project is a **Flask-based web application** that implements a customer segmentation model using KMeans Clustering to classify retail customers based on their behavior. The app utilizes key customer metrics to segment customers, enabling businesses to tailor marketing strategies and improve customer engagement. You can use **synthetic_customer_segments** file in repository as input because input file compulsarily requires **Customer ID, Recency, Frequency, Monetary** features. 
 
 ---
 
 ## ✨ Features
 
-- 🖥️ Interactive web interface for inputting customer data  
-- ⚡ Real-time prediction of customer segments using a machine learning model  
-- 🎨 Clean and user-friendly UI  
-- 🐳 Dockerized for simple deployment and environment consistency  
+-  Interactive web interface for inputting customer data  
+-  Real-time prediction of customer segments using a machine learning model  
+-  Clean and user-friendly UI  
+-  Dockerized for simple deployment and environment consistency  
 
 ---
 
-## 🤖 Model Description
+## Model Description
 
 The customer segmentation model classifies customers into distinct groups based on the following features:
 
@@ -34,7 +35,7 @@ The model uses these features to segment customers into meaningful groups such a
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Input Requirements
 
@@ -55,17 +56,7 @@ The app requires the following inputs through the form or API:
 4. Use the segmentation results to guide marketing strategies and customer engagement  
 
 ---
-
-## 🛠 Technologies Used
-
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)  
-[![Flask](https://img.shields.io/badge/Flask-1.1.2-orange?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)  
-[![Docker](https://img.shields.io/badge/Docker-20-blue?logo=docker&logoColor=white)](https://www.docker.com/)  
-[![Gunicorn](https://img.shields.io/badge/Gunicorn-server-green)](https://gunicorn.org/)  
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24-blue?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)  
-
----
-
+ 
 ##  Contributing
 
 Contributions, issues, and feature requests are welcome! Please check the issues page or submit a pull request.
